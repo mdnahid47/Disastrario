@@ -105,11 +105,6 @@ const Incidents = () => {
         </div>
       </div>
 
-      <div>
-        <GetStart/>
-      </div>
-
-      
     </>
   );
 };
