@@ -3,6 +3,7 @@ import IncidenOne from "./IncidenOne";
 import { IoMdClose } from "react-icons/io";
 import { TbLetterC } from "react-icons/tb";
 import Card from "./Card";
+import GetStart from "./GetStart";
 
 const Incidents = () => {
   const [data, setData] = useState([]);
@@ -103,6 +104,12 @@ const Incidents = () => {
           </button>
         </div>
       </div>
+
+      <div>
+        <GetStart/>
+      </div>
+
+      
     </>
   );
 };
