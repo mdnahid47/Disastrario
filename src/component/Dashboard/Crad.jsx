@@ -2,7 +2,7 @@ const Crad = ({ data }) => {
   const { image, title, price, area } = data;
 
   return (
-    <div className="font-onset-font transition-transform duration-200 hover:scale-105 hover:shadow-lg border rounded-lg overflow-hidden">
+    <div className="font-onset-font transition-transform duration-200 hover:scale-105 hover:shadow-lg border rounded-lg overflow-hidden cursor-pointer">
       <img src={image} alt={title} className="w-full h-48 object-cover" />
       <div className="space-y-1 p-4">
         <p className="font-bold text-[16px] text-primary">{title}</p>
