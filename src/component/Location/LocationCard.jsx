@@ -33,7 +33,7 @@ const LocationCard = () => {
   ];
 
   return (
-    <div className="cursor-pointer">
+    <div className="cursor-pointer ">
       <p className="mb-2 text-primary font-semibold text-sm">Location</p>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
