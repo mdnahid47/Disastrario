@@ -31,7 +31,7 @@ const Dashboard = () => {
       </div>
 
       <div className="flex flex-col mt-5 w-3/4 mx-auto z-10 h-72">
-        <div className="flex justify-end w-full max-w-7xl mx-auto">
+        <div className=" flex justify-end w-full max-w-7xl mx-auto">
           {isShowModal && (
             <div className="flex flex-col w-full max-w-sm h-96 border rounded-lg shadow-lg mr-5">
               <div className="p-4 bg-btnPrimary text-white font-bold text-center rounded-t-lg">
