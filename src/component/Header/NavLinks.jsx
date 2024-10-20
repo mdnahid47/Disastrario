@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 
 const NavLinks = () => {
   return (
-    <div className="flex gap-4 text-secondary text-sm font-normal">
+    <div className="flex gap-4 text-secondary text-sm font-normal cursor-pointer">
       <NavLink
         to="/"
         className={({ isActive }) =>
