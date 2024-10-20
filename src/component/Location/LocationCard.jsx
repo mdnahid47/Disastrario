@@ -33,12 +33,12 @@ const LocationCard = () => {
   ];
 
   return (
-    <div>
+    <div className="cursor-pointer">
       <p className="mb-2 text-primary font-semibold text-sm">Location</p>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
         {datas.map((data) => (
-          <LocationCards key={data.id} data={data} />
+          <LocationCards key={data.id} data={data}  />
         ))}
       </div>
     </div>
